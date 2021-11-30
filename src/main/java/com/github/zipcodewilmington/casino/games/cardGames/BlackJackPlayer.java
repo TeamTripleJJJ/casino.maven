@@ -1,17 +1,12 @@
-package com.github.zipcodewilmington.casino.games.roulette;
-
-import com.github.zipcodewilmington.Casino;
+package com.github.zipcodewilmington.casino.games.cardGames;
 import com.github.zipcodewilmington.casino.CasinoAccount;
-import com.github.zipcodewilmington.casino.CasinoAccountManager;
 import com.github.zipcodewilmington.casino.PlayerInterface;
 
-public class RoulettePlayer implements PlayerInterface {
+public class BlackJackPlayer implements PlayerInterface {
     private CasinoAccount arcadeAccount;
 
-
-    public  RoulettePlayer( CasinoAccount casinoAccount){
+    public  BlackJackPlayer( CasinoAccount casinoAccount){
         this.arcadeAccount = casinoAccount;
-
     }
 
     @Override
